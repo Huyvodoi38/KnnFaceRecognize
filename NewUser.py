@@ -78,7 +78,7 @@ while (True):
     # Check xem có bấm esc hoặc trên 100 ảnh sample thì thoát
     if cv2.waitKey(1) & 0xFF == 27:
         break
-    elif sampleNum > 49:
+    elif sampleNum > 99:
         break
 
 cam.release()
